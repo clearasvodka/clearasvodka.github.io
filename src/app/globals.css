@@ -19,18 +19,29 @@
 
 h1 {
   font-size: 64px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -4px;
   color: #161616;
 }
 
-.bookshell {
-  margin: auto;
-  display: grid;
-  row-gap: 2px;
+h2 {
+  font-weight: 400;
+  letter-spacing: -0.4px;
 }
 
-.book {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+h6 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+.mono {
+  font-family: monospace;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  writing-mode: vertical-rl;
+  text-align: center;
 }
