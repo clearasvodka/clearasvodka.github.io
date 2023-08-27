@@ -5,16 +5,16 @@
 }
 
 .book {
-  background-color: red;
+  background-color: rgb(255, 81, 0);
   display: grid;
   grid-template-columns: auto auto 1fr auto;
-  grid-column-gap: 8px;
   min-height: 48px;
   place-items: center;
   border-radius: 2px;
 }
 
 .book-author {
+  min-width: 100px;
   font-size: 12px;
   line-height: 16px;
 }
@@ -26,5 +26,17 @@
   padding: 8px 2px;
   height: 100%;
   text-align: center;
-  margin-right: 16px;
+  margin-right: 8px;
+}
+
+.book-id {
+  padding: 8px;
+}
+
+.book-author ul {
+  padding: 8px;
+}
+
+.book-title {
+  padding: 8px;
 }
