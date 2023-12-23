@@ -1,9 +1,11 @@
-export default function Footer() {
+function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <>
-      <footer>
-        <h1>Footer</h1>
-      </footer>
-    </>
+    <footer>
+      <p>&copy; Clear as Vodka {currentYear}</p>
+    </footer>
   );
 }
+
+export default Footer;
