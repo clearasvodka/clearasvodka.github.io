@@ -11,14 +11,8 @@
 main {
   display: grid;
   padding: 0 24px;
-  grid-template-columns: auto repeat(12, 64px) auto;
+  grid-template-columns: auto repeat(12, 48px) auto;
   column-gap: 24px;
-}
-
-.promo-container {
-  display: grid;
-  grid-template-columns: subgrid;
-  grid-column: 2/7;
 }
 
 :root {
@@ -37,13 +31,16 @@ body {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 80px;
+  line-height: 96px;
   font-weight: 400;
   letter-spacing: -4px;
   color: #161616;
 }
 
 h2 {
+  font-size: 40px;
+  line-height: 48px;
   font-weight: 400;
   letter-spacing: -0.4px;
 }

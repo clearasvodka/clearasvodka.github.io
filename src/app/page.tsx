@@ -1,9 +1,11 @@
 import styles from "./page.module.css";
+import HeroContainer from "@/components/HeroContainer";
 
 export default function Home() {
   return (
-    <div className="promo-container">
-      <h1>Clearasvodka</h1>
-    </div>
+    <>
+      <HeroContainer />
+      <div className="main-content"></div>
+    </>
   );
 }
