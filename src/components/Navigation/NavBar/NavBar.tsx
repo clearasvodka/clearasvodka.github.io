@@ -1,13 +1,22 @@
+import "./navBar.css";
+import Link from "next/link";
+
 export default function NavBar() {
   return (
     <>
       <header>
         <nav>
-          <ul>
-            <li>Main</li>
-            <li>Projects</li>
-            <li>Bookshelf</li>
-            <li>About</li>
+          <ul className="nav-container">
+            <li className="nav-item">
+              <Link className="nav-link" href="/">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" href="/bookshelf">
+                Bookshelf
+              </Link>
+            </li>
           </ul>
         </nav>
       </header>

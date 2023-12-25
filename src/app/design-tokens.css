@@ -1,0 +1,13 @@
+:root {
+  /* Reference tokens. Color */
+  --cav-color-black: #000000;
+  --cav-color-white: #ffffff;
+
+  --cav-color-background: var(--cav-color-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cav-color-background: var(--cav-color-black);
+  }
+}

@@ -1,13 +1,13 @@
-import "./bookShell.css";
+import "./bookShelf.css";
 export default function Page() {
   return (
     <main>
-      <h1>Bookshell</h1>
+      <h1>Bookshelf</h1>
       <p>
         The collection of books, magazines, comics, etc somehow influenced the
         way I behave
       </p>
-      <div className="bookshell">
+      <div className="bookshelf">
         <div className="book">
           <div className="book-id">
             <div className="mono">

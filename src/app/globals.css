@@ -1,4 +1,4 @@
-@import url(https://use.typekit.net/wpf4tgj.css);
+@import url(https://use.typekit.net/xka3aqi.css);
 
 *,
 *:before,
@@ -11,8 +11,9 @@
 main {
   display: grid;
   padding: 0 24px;
-  grid-template-columns: auto repeat(12, 48px) auto;
-  column-gap: 24px;
+  grid-template-columns: auto repeat(12, 64px) auto;
+  grid-auto-rows: auto;
+  gap: 24px;
 }
 
 :root {
@@ -28,12 +29,14 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: var(--cav-color-background);
 }
 
 h1 {
-  font-size: 80px;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-size: 96px;
   line-height: 96px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -4px;
   color: #161616;
 }
@@ -42,7 +45,14 @@ h2 {
   font-size: 40px;
   line-height: 48px;
   font-weight: 400;
-  letter-spacing: -0.4px;
+  letter-spacing: -1.2px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
 }
 
 h6 {
@@ -67,18 +77,8 @@ p {
   text-align: center;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
-  justify-content: center;
-}
-
 li {
   list-style-type: none;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 20px 0;
 }
 
 header {
@@ -95,4 +95,5 @@ footer {
   border-top: 1px solid #f2f2f2;
   align-items: center;
   justify-content: center;
+  margin-top: 32px;
 }

@@ -1,0 +1,33 @@
+.main-content {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 2/14;
+  row-gap: 24px;
+}
+
+.content-section {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+.content-title {
+  grid-column: span 6;
+}
+
+.content-items {
+  grid-column: span 6;
+}
+
+.link-large {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  color: #161616;
+}
+
+.link-large:hover {
+  color: #f05a14;
+}
