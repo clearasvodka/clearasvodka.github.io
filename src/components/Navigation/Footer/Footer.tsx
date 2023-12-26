@@ -3,7 +3,7 @@ function Footer() {
 
   return (
     <footer>
-      <p>&copy; Clear as Vodka {currentYear}</p>
+      <p>&copy; clearasvodka {currentYear}</p>
     </footer>
   );
 }

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 2/14;
-  row-gap: 24px;
+  row-gap: 32px;
 }
 
 .content-section {
@@ -22,7 +22,7 @@
 .link-large {
   text-decoration: none;
   font-size: 24px;
-  line-height: 32px;
+  line-height: 40px;
   font-weight: 400;
   letter-spacing: -0.8px;
   color: #161616;
