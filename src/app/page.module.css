@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 2/14;
-  row-gap: 32px;
+  row-gap: 40px;
 }
 
 .content-section {
@@ -52,6 +52,15 @@
   }
 
   .content-section {
+    grid-column: span 2;
+    row-gap: 8px;
+  }
+
+  .section-title {
+    grid-column: span 2;
+  }
+
+  .content-items {
     grid-column: span 2;
   }
 }

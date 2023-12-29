@@ -8,16 +8,8 @@
   box-sizing: border-box;
 }
 
-main {
-  display: grid;
-  padding: 0 20px;
-  grid-template-columns: auto repeat(12, 64px) auto;
-  grid-auto-rows: auto;
-  gap: 24px;
-}
-
 :root {
-  font-family: neue-haas-grotesk-text, sans-serif;
+  font-family: "neue-haas-grotesk-text", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +22,15 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: var(--cav-color-background);
+}
+
+main {
+  display: grid;
+  padding: 0 20px;
+  grid-template-columns: auto repeat(12, 64px) auto;
+  grid-auto-rows: auto;
+  column-gap: 24px;
+  row-gap: 40px;
 }
 
 h1 {
@@ -68,38 +69,20 @@ p {
   line-height: 24px;
 }
 
-.mono {
-  font-family: monospace;
-  font-size: 10px;
-  line-height: 12px;
-  font-weight: 500;
-  writing-mode: vertical-rl;
-  text-align: center;
-}
-
 li {
   list-style-type: none;
 }
 
-header {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  backdrop-filter: saturate(1.8) blur(16px);
-  background-color: rgba(255, 255, 255, 0.32);
-}
-
-footer {
-  display: flex;
-  height: 48px;
-  border-top: 1px solid #f2f2f2;
-  align-items: center;
-  justify-content: center;
-  margin-top: 32px;
+@media only screen and (max-width: 1180px) {
 }
 
 @media only screen and (max-width: 480px) {
   main {
     grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 300;
+    letter-spacing: -2.4px;
   }
 }

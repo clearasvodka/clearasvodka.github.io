@@ -1,5 +1,13 @@
-.nav-container {
+header {
   width: 100vw;
+  position: sticky;
+  top: 0;
+  backdrop-filter: saturate(1.8) blur(16px);
+  background-color: rgba(255, 255, 255, 0.32);
+  z-index: 800;
+}
+
+.nav-container {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;

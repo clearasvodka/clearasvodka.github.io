@@ -3,21 +3,27 @@
   display: grid;
   grid-template-columns: subgrid;
   background-color: #f4f4f4;
-  grid-column: 1/-1;
   align-items: center;
   border-radius: 24px;
   min-height: 420px;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
+  grid-column: 1/-1;
 }
 
 .hero-container:hover {
   min-height: 480px;
   border-radius: 8px;
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
 }
 
 .hero-content {
   grid-column: 1/-1;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 14vw;
+  }
 }
