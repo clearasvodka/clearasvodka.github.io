@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import HeroContainer from "@/components/HeroContainer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,8 +8,17 @@ export default function Home() {
       <HeroContainer />
       <div className={styles["main-content"]}>
         <div className={styles["content-section"]}>
-          <div className={styles["content-title"]}>
-            <h2>Work</h2>
+          <div className={styles["content-block-name"]}>
+            <div className={styles["content-title-icon"]}>
+              <h2>Work</h2>
+              <Image
+                className={styles["content-icon"]}
+                src="/icons/icon_content-01.svg"
+                width={40}
+                height={40}
+                alt="works"
+              />
+            </div>
           </div>
           <div className={styles["content-items"]}>
             <ul>
@@ -36,8 +46,17 @@ export default function Home() {
           </div>
         </div>
         <div className={styles["content-section"]}>
-          <div className={styles["content-title"]}>
-            <h2>Projects</h2>
+          <div className={styles["content-block-name"]}>
+            <div className={styles["content-title-icon"]}>
+              <h2>Projects</h2>
+              <Image
+                className={styles["content-icon"]}
+                src="/icons/icon_content-02.svg"
+                width={40}
+                height={40}
+                alt="projects"
+              />
+            </div>
           </div>
           <div className={styles["content-items"]}>
             <ul>
@@ -64,8 +83,18 @@ export default function Home() {
         </div>
 
         <div className={styles["content-section"]}>
-          <div className={styles["content-title"]}>
-            <h2>Social</h2>
+          <div className={styles["content-block-name"]}>
+            <div className={styles["content-title-icon"]}>
+              <h2>Social</h2>
+
+              <Image
+                className={styles["content-icon"]}
+                src="/icons/icon_content-03.svg"
+                width={40}
+                height={40}
+                alt="social links"
+              />
+            </div>
           </div>
           <div className={styles["content-items"]}>
             <ul>
@@ -114,8 +143,17 @@ export default function Home() {
         </div>
 
         <div className={styles["content-section"]}>
-          <div className={styles["content-title"]}>
-            <h2>Contact</h2>
+          <div className={styles["content-block-name"]}>
+            <div className={styles["content-title-icon"]}>
+              <h2>Contact</h2>
+              <Image
+                className={styles["content-icon"]}
+                src="/icons/icon_content-04.svg"
+                width={40}
+                height={40}
+                alt="works"
+              />
+            </div>
           </div>
           <div className={styles["content-items"]}>
             <a

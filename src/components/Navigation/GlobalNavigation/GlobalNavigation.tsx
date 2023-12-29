@@ -1,7 +1,7 @@
-import "./navBar.css";
+import "./GlobalNavigation.css";
 import Link from "next/link";
 
-export default function NavBar() {
+export default function GlobalNavigation() {
   return (
     <>
       <header>

@@ -1,6 +1,6 @@
 import "./globals.css";
 // import "./design-tokens.css";
-import NavBar from "@/components/Navigation/NavBar";
+import GlobalNavigation from "@/components/Navigation/GlobalNavigation";
 import Footer from "@/components/Navigation/Footer";
 import type { Metadata } from "next";
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <NavBar />
+        <GlobalNavigation />
         <main>{children}</main>
         <Footer />
       </body>

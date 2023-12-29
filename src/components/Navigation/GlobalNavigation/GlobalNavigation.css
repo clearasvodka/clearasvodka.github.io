@@ -1,9 +1,11 @@
 .nav-container {
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 
 .nav-item {

@@ -11,12 +11,27 @@
   grid-template-columns: subgrid;
 }
 
-.content-title {
+.content-block-name {
   grid-column: span 6;
 }
 
 .content-items {
   grid-column: span 6;
+}
+
+.content-title-icon {
+  display: inline-flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-icon {
+  display: none;
+}
+
+.content-section:hover .content-icon {
+  display: block;
 }
 
 .link-large {
@@ -29,5 +44,5 @@
 }
 
 .link-large:hover {
-  color: #f05a14;
+  color: #f05523;
 }
