@@ -1,4 +1,4 @@
-.main-content {
+.info-container {
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 2/14;
@@ -11,7 +11,7 @@
   grid-template-columns: subgrid;
 }
 
-.content-block-name {
+.section-title {
   grid-column: span 6;
 }
 
@@ -19,18 +19,17 @@
   grid-column: span 6;
 }
 
-.content-title-icon {
+.title-block {
   display: inline-flex;
   gap: 12px;
-  justify-content: center;
   align-items: center;
 }
 
-.content-icon {
+.title-icon {
   display: none;
 }
 
-.content-section:hover .content-icon {
+.content-section:hover .title-icon {
   display: block;
 }
 
@@ -45,4 +44,14 @@
 
 .link-large:hover {
   color: #f05523;
+}
+
+@media only screen and (max-width: 480px) {
+  .info-container {
+    grid-column: 1/-1;
+  }
+
+  .content-section {
+    grid-column: span 2;
+  }
 }

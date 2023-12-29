@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
       <HeroContainer />
-      <div className={styles["main-content"]}>
+      <div className={styles["info-container"]}>
         <div className={styles["content-section"]}>
-          <div className={styles["content-block-name"]}>
-            <div className={styles["content-title-icon"]}>
+          <div className={styles["section-title"]}>
+            <div className={styles["title-block"]}>
               <h2>Work</h2>
               <Image
-                className={styles["content-icon"]}
+                className={styles["title-icon"]}
                 src="/icons/icon_content-01.svg"
                 width={40}
                 height={40}
@@ -46,11 +46,11 @@ export default function Home() {
           </div>
         </div>
         <div className={styles["content-section"]}>
-          <div className={styles["content-block-name"]}>
-            <div className={styles["content-title-icon"]}>
+          <div className={styles["section-title"]}>
+            <div className={styles["title-block"]}>
               <h2>Projects</h2>
               <Image
-                className={styles["content-icon"]}
+                className={styles["title-icon"]}
                 src="/icons/icon_content-02.svg"
                 width={40}
                 height={40}
@@ -83,12 +83,12 @@ export default function Home() {
         </div>
 
         <div className={styles["content-section"]}>
-          <div className={styles["content-block-name"]}>
-            <div className={styles["content-title-icon"]}>
+          <div className={styles["section-title"]}>
+            <div className={styles["title-block"]}>
               <h2>Social</h2>
 
               <Image
-                className={styles["content-icon"]}
+                className={styles["title-icon"]}
                 src="/icons/icon_content-03.svg"
                 width={40}
                 height={40}
@@ -143,11 +143,11 @@ export default function Home() {
         </div>
 
         <div className={styles["content-section"]}>
-          <div className={styles["content-block-name"]}>
-            <div className={styles["content-title-icon"]}>
+          <div className={styles["section-title"]}>
+            <div className={styles["title-block"]}>
               <h2>Contact</h2>
               <Image
-                className={styles["content-icon"]}
+                className={styles["title-icon"]}
                 src="/icons/icon_content-04.svg"
                 width={40}
                 height={40}
