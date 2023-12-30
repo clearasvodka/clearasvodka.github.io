@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./design-tokens.css";
 // import "./design-tokens.css";
 import GlobalNavigation from "@/components/Navigation/GlobalNavigation";
 import Footer from "@/components/Navigation/Footer";

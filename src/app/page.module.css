@@ -39,11 +39,17 @@
   line-height: 40px;
   font-weight: 400;
   letter-spacing: -0.8px;
-  color: #161616;
+  color: var(--cav-color-text-primary);
 }
 
 .link-large:hover {
-  color: #f05523;
+  color: var(--cav-color-accent);
+}
+
+@media only screen and (max-width: 1120px) {
+  .info-container {
+    grid-column: 1/-1;
+  }
 }
 
 @media only screen and (max-width: 480px) {

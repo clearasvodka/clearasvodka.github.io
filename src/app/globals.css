@@ -22,6 +22,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: var(--cav-color-background);
+  color: var(--cav-color-text-primary);
 }
 
 main {
@@ -39,7 +40,6 @@ h1 {
   line-height: 96px;
   font-weight: 500;
   letter-spacing: -4px;
-  color: #161616;
 }
 
 h2 {
@@ -73,7 +73,10 @@ li {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1120px) {
+  main {
+    grid-template-columns: repeat(12, 1fr);
+  }
 }
 
 @media only screen and (max-width: 480px) {

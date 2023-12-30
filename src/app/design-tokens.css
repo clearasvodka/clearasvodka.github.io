@@ -1,13 +1,27 @@
 :root {
   /* Reference tokens. Color */
-  --cav-color-black: #000000;
+
   --cav-color-white: #ffffff;
+  --cav-color-neutral-10: #f4f4f4;
+  --cav-color-neutral-20: #e0e0e0;
+  --cav-color-neutral-30: #c6c6c6;
+  --cav-color-neutral-40: #a8a8a8;
+  --cav-color-neutral-50: #8d8d8d;
+  --cav-color-neutral-60: #6f6f6f;
+  --cav-color-neutral-70: #525252;
+  --cav-color-neutral-80: #393939;
+  --cav-color-neutral-100: #161616;
+  --cav-color-neutral-90: #262626;
+  --cav-color-black: #000000;
+  --cav-color-accent: #f05523;
 
   --cav-color-background: var(--cav-color-white);
+  --cav-color-text-primary: var(--cav-color-neutral-100);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --cav-color-background: var(--cav-color-black);
+    --cav-color-text-primary: var(--cav-color-white);
   }
 }
