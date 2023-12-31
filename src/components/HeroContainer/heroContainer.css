@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: subgrid;
-  background-color: #f4f4f4;
+  background-color: var(--cav-color-surface-01);
   align-items: center;
   border-radius: 24px;
   min-height: 420px;

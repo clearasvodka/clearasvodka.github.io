@@ -3,7 +3,7 @@ header {
   position: sticky;
   top: 0;
   backdrop-filter: saturate(1.8) blur(16px);
-  background-color: rgba(255, 255, 255, 0.32);
+  background-color: var(--cav-color-background-frost);
   z-index: 800;
 }
 
@@ -25,9 +25,9 @@ header {
 
 .nav-link {
   text-decoration: none;
-  color: #161616;
+  color: var(--cav-color-text-primary);
 }
 
 .nav-link:hover {
-  color: #f05a14;
+  color: var(--cav-color-text-link);
 }

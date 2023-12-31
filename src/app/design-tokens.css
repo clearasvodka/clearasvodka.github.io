@@ -10,18 +10,30 @@
   --cav-color-neutral-60: #6f6f6f;
   --cav-color-neutral-70: #525252;
   --cav-color-neutral-80: #393939;
-  --cav-color-neutral-100: #161616;
   --cav-color-neutral-90: #262626;
+  --cav-color-neutral-100: #161616;
   --cav-color-black: #000000;
   --cav-color-accent: #f05523;
 
   --cav-color-background: var(--cav-color-white);
+  --cav-color-surface-01: var(--cav-color-neutral-10);
   --cav-color-text-primary: var(--cav-color-neutral-100);
+  --cav-color-text-secondary: var(--cav-color-neutral-70);
+  --cav-color-text-helper: var(--cav-color-neutral-60);
+  --cav-color-text-link: var(--cav-color-accent);
+
+  --cav-color-background-frost: rgba(255, 255, 255, 0.32);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --cav-color-background: var(--cav-color-black);
+    --cav-color-surface-01: var(--cav-color-neutral-100);
     --cav-color-text-primary: var(--cav-color-white);
+    --cav-color-text-secondary: var(--cav-color-neutral-30);
+    --cav-color-text-helper: var(--cav-color-neutral-50);
+    --cav-color-text-link: var(--cav-color-accent);
+
+    --cav-color-background-frost: rgba(0, 0, 0, 0.64);
   }
 }
