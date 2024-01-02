@@ -6,7 +6,7 @@ export default function HeroContainer() {
       <div className="hero-container">
         <div className="hero-content">
           <h1>clearasvodka</h1>
-          <p>Distilled from the heart</p>
+          <p>BETA</p>
         </div>
       </div>
     </>

@@ -29,9 +29,15 @@ main {
   display: grid;
   padding: 0 20px;
   grid-template-columns: auto repeat(12, 64px) auto;
-  grid-auto-rows: auto;
+  grid-auto-rows: min-content;
   column-gap: 24px;
   row-gap: 40px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 2/14;
 }
 
 h1 {

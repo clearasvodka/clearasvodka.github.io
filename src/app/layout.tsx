@@ -1,3 +1,4 @@
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import "./design-tokens.css";
 // import "./design-tokens.css";
@@ -22,6 +23,8 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
       </body>
+      <GoogleTagManager gtmId="GTM-MSQTMN3" />
     </html>
   );
 }
+a;

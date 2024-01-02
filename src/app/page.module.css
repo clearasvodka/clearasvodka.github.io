@@ -42,6 +42,16 @@
   color: var(--cav-color-text-primary);
 }
 
+.link-large-inactive {
+  text-decoration: line-through;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  color: var(--cav-color-text-inactive);
+  cursor: not-allowed;
+}
+
 .link-large:hover {
   color: var(--cav-color-accent);
 }

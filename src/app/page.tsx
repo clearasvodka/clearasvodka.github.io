@@ -26,7 +26,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles["link-large"]}
+                  className={styles["link-large-inactive"]}
                   href="#"
                 >
                   Index
@@ -37,9 +37,9 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles["link-large"]}
-                  href="#"
+                  href="https://lab.clearasvodka.com/"
                 >
-                  Lab
+                  Lab &#38; artifacts
                 </a>
               </li>
             </ul>
@@ -73,7 +73,7 @@ export default function Home() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles["link-large"]}
+                className={styles["link-large-inactive"]}
                 href="#"
               >
                 LND
@@ -132,7 +132,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles["link-large"]}
+                  className={styles["link-large-inactive"]}
                   href="#"
                 >
                   Youtube
