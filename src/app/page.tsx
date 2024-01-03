@@ -42,6 +42,16 @@ export default function Home() {
                   Lab &#38; artifacts
                 </a>
               </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles["link-large"]}
+                  href="https://sketch.clearasvodka.com/"
+                >
+                  Sketchbook
+                </a>
+              </li>
             </ul>
           </div>
         </div>
