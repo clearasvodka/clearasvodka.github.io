@@ -1,7 +1,7 @@
 footer {
   display: flex;
   height: 48px;
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid var(--cav-color-surface-01);
   align-items: center;
   justify-content: center;
   margin-top: 48px;
