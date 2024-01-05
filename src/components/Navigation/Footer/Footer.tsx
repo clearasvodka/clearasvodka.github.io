@@ -1,12 +1,16 @@
+import FooterBanner from "@/components/Banners/FooterBanner";
 import "./footer.css";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer>
-      <p>&copy; clearasvodka {currentYear}</p>
-    </footer>
+    <>
+      <footer>
+        {/* <FooterBanner /> */}
+        <div className="footer-content">&copy; clearasvodka {currentYear}</div>
+      </footer>
+    </>
   );
 }
 

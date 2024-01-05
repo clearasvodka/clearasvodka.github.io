@@ -1,8 +1,14 @@
 footer {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  margin-top: 48px;
+}
+
+.footer-content {
   display: flex;
   height: 48px;
   border-top: 1px solid var(--cav-color-surface-01);
   align-items: center;
   justify-content: center;
-  margin-top: 48px;
 }
