@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import HeroContainer from "@/components/HeroContainer";
 import Image from "next/image";
+import HoloSticker from "@/components/Stickers";
 
 export default function Home() {
   return (
