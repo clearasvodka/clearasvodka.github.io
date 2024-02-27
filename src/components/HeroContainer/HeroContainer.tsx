@@ -1,6 +1,6 @@
 import "./heroContainer.css";
-// import Image from "next/image";
-// import cavSymbol3D from "../../../public/img/img_hero_cav.png";
+import Image from "next/image";
+import cavSymbol3D from "../../../public/img/img_hero_cav.png";
 
 export default function HeroContainer() {
   return (
@@ -11,7 +11,7 @@ export default function HeroContainer() {
             <h1>clearasvodka</h1>
             <span className="text-beta">BETA</span>
           </div>
-          {/* <div className="hero-image">
+          <div className="hero-image">
             <Image
               placeholder="blur"
               src={cavSymbol3D}
@@ -21,7 +21,7 @@ export default function HeroContainer() {
                 height: "auto",
               }}
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </>

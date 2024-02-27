@@ -33,16 +33,7 @@ export default function Home() {
                   Index
                 </a>
               </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles["link-large"]}
-                  href="https://lab.clearasvodka.com/"
-                >
-                  Lab
-                </a>
-              </li>
+
               <li>
                 <a
                   target="_blank"
@@ -137,36 +128,6 @@ export default function Home() {
                   href="https://instagram.com/clearasvodka"
                 >
                   Instagram
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles["link-large-inactive"]}
-                  href="#"
-                >
-                  X
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles["link-large-inactive"]}
-                  href="#"
-                >
-                  Youtube
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles["link-large-inactive"]}
-                  href="#"
-                >
-                  Substack
                 </a>
               </li>
             </ul>
