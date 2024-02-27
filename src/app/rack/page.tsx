@@ -6,7 +6,7 @@ export default function Page() {
     <>
       <Header />
       <section>
-        <div>main content</div>
+        <div>main content. books and more</div>
       </section>
     </>
   );
