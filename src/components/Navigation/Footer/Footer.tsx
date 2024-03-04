@@ -1,4 +1,3 @@
-import FooterBanner from "@/components/Banners/FooterBanner";
 import "./footer.css";
 
 function Footer() {
@@ -7,7 +6,6 @@ function Footer() {
   return (
     <>
       <footer>
-        {/* <FooterBanner /> */}
         <div className="footer-content">&copy; clearasvodka {currentYear}</div>
       </footer>
     </>
