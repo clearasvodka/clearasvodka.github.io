@@ -2,6 +2,12 @@ import "./heroContainer.css";
 import Image from "next/image";
 import cavSymbol3D from "../../../public/img/img_hero_cav.png";
 
+const heroImageStyle = {
+  maxWidth: "80%",
+  height: "auto",
+  filter: "blur(0.2px)",
+};
+
 export default function HeroContainer() {
   return (
     <>
@@ -13,13 +19,12 @@ export default function HeroContainer() {
           </div>
           <div className="hero-image">
             <Image
-              placeholder="blur"
+              style={heroImageStyle}
+              placeholder="empty"
+              quality={75}
+              loading="lazy"
               src={cavSymbol3D}
               alt="clearasvodka logo"
-              style={{
-                maxWidth: "80%",
-                height: "auto",
-              }}
             />
           </div>
         </div>

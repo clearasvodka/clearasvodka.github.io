@@ -3,7 +3,7 @@ import "./globals.css";
 import "./design-tokens.css";
 // import "./design-tokens.css";
 import GlobalNavigation from "@/components/Navigation/GlobalNavigation";
-import Footer from "@/components/Navigation/Footer";
+import Footer from "@/components/Layout/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
