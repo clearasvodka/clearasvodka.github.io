@@ -24,6 +24,7 @@ export default function Home() {
           <div className={styles["content-items"]}>
             <ul>
               <li>
+                <span className={styles["content-number"]}>01</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -35,6 +36,7 @@ export default function Home() {
               </li>
 
               <li>
+                <span className={styles["content-number"]}>02</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,6 +65,7 @@ export default function Home() {
           <div className={styles["content-items"]}>
             <ul>
               <li>
+                <span className={styles["content-number"]}>03</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -72,6 +75,7 @@ export default function Home() {
                   Roopor
                 </a>
               </li>
+              <span className={styles["content-number"]}>04</span>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,6 +105,7 @@ export default function Home() {
           <div className={styles["content-items"]}>
             <ul>
               <li>
+                <span className={styles["content-number"]}>05</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -111,6 +116,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                <span className={styles["content-number"]}>06</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -121,6 +127,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
+                <span className={styles["content-number"]}>07</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -148,6 +155,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles["content-items"]}>
+            <span className={styles["content-number"]}>08</span>
             <a
               className={styles["link-large"]}
               href="mailto:hello@clearas.vodka"

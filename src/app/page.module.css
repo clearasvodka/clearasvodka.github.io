@@ -19,6 +19,14 @@
   grid-column: span 6;
 }
 
+.content-number {
+  font-family: monospace;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--cav-color-text-primary);
+}
+
 .title-block {
   display: inline-flex;
   gap: 12px;
