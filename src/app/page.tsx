@@ -156,11 +156,8 @@ export default function Home() {
           </div>
           <div className={styles["content-items"]}>
             <span className={styles["content-number"]}>08</span>
-            <a
-              className={styles["link-large"]}
-              href="mailto:hello@clearas.vodka"
-            >
-              hello@clearas.vodka
+            <a className={styles["link-large"]} href="mailto:hi@clearas.vodka">
+              hi@clearas.vodka
             </a>
           </div>
         </div>
