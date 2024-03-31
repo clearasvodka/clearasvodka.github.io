@@ -10,11 +10,11 @@ export default function GlobalNavigation() {
             Home
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link className="nav-link" href="/rack">
             Rack
           </Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );

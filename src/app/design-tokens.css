@@ -16,26 +16,33 @@
   --cav-color-accent: #f05523;
 
   --cav-color-background: var(--cav-color-white);
+  --cav-color-background-accent: var(--cav-color-accent);
+  --cav-color-background-frost: rgba(255, 255, 255, 0.32);
+
   --cav-color-surface-01: var(--cav-color-neutral-10);
+
+  --cav-color-border-primary: var(--cav-color-neutral-100);
+
   --cav-color-text-primary: var(--cav-color-neutral-100);
   --cav-color-text-secondary: var(--cav-color-neutral-70);
   --cav-color-text-helper: var(--cav-color-neutral-60);
   --cav-color-text-inactive: var(--cav-color-neutral-30);
   --cav-color-text-link: var(--cav-color-accent);
-
-  --cav-color-background-frost: rgba(255, 255, 255, 0.32);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --cav-color-background: var(--cav-color-black);
+    --cav-color-background-frost: rgba(0, 0, 0, 0.64);
+
     --cav-color-surface-01: var(--cav-color-neutral-100);
+
+    --cav-color-border-primary: var(--cav-color-white);
+
     --cav-color-text-primary: var(--cav-color-white);
     --cav-color-text-secondary: var(--cav-color-neutral-30);
     --cav-color-text-helper: var(--cav-color-neutral-50);
     --cav-color-text-inactive: var(--cav-color-neutral-70);
     --cav-color-text-link: var(--cav-color-accent);
-
-    --cav-color-background-frost: rgba(0, 0, 0, 0.64);
   }
 }
