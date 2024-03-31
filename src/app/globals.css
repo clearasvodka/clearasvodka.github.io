@@ -73,6 +73,13 @@ li {
   list-style-type: none;
 }
 
+.header {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 8px;
+  margin-bottom: 48px;
+}
+
 @media only screen and (max-width: 1120px) {
   main {
     grid-template-columns: repeat(12, 1fr);

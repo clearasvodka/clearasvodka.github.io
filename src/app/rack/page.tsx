@@ -5,6 +5,13 @@ export default function Page() {
   return (
     <>
       <section className={styles["book-section"]}>
+        <div className="header">
+          <h1>Rack</h1>
+          <p>
+            The collection of chunks somehow shaped the way I think, work and
+            behave on day-to-day basis.
+          </p>
+        </div>
         <div className={styles["book-item"]}>
           <div className={styles["book-name"]}>
             Printing &#38; piety. An essay on life and works in the England of
