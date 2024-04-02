@@ -54,6 +54,26 @@ export default function Page() {
         </div>
 
         <div className={styles["book-item"]}>
+          <div className={styles["book-name"]}>Think Like a UX Researcher</div>
+          <div className={styles["book-authors"]}>
+            David Travis
+            <br />
+            Philip Hodgson
+          </div>
+        </div>
+
+        <div className={styles["book-item"]}>
+          <div className={styles["book-name"]}>
+            Fundamentals of Software Architecture: An Engineering Approach
+          </div>
+          <div className={styles["book-authors"]}>
+            Mark Richards
+            <br />
+            Neal Ford
+          </div>
+        </div>
+
+        <div className={styles["book-item"]}>
           <div className={styles["book-name"]}>Watchmen</div>
           <div className={styles["book-authors"]}>
             Alan Moore
