@@ -5,7 +5,7 @@
 
 .book-item {
   display: grid;
-  grid-template-columns: 1fr 140px;
+  grid-template-columns: min-content 1fr 140px;
   column-gap: 16px;
   min-height: min-content;
   padding: 16px;
@@ -18,10 +18,8 @@
 }
 
 .book-category {
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .book-name {
@@ -45,7 +43,7 @@
 @media only screen and (max-width: 480px) {
   .book-item {
     grid-template-columns: none;
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(3, min-content);
     row-gap: 8px;
   }
 
