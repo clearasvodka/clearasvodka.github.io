@@ -31,6 +31,14 @@ export default function Page() {
 
         <div className={styles["book-item"]}>
           <div className={styles["book-category"]}>📖</div>
+          <div className={styles["book-name"]}>
+            The Art of Game Design: A Book of Lenses
+          </div>
+          <div className={styles["book-authors"]}>Jesse Schell</div>
+        </div>
+
+        <div className={styles["book-item"]}>
+          <div className={styles["book-category"]}>📖</div>
           <div className={styles["book-name"]}>Design, Form, and Chaos</div>
           <div className={styles["book-authors"]}>Paul Rand</div>
         </div>
@@ -90,7 +98,7 @@ export default function Page() {
         </div>
 
         <div className={styles["book-item"]}>
-          <div className={styles["book-category"]}>🎬</div>
+          <div className={styles["book-category"]}>🗯️</div>
           <div className={styles["book-name"]}>Watchmen</div>
           <div className={styles["book-authors"]}>
             Alan Moore
