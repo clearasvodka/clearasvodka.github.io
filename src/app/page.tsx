@@ -119,7 +119,18 @@ export default function Home() {
           <div className={styles["content-items"]}>
             <ul>
               <li>
-                <span className={styles["content-number"]}>05</span>
+                <span className={styles["content-number"]}>06</span>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles["link-large"]}
+                  href="https://dribbble.com/emelman"
+                >
+                  Dribbble
+                </a>
+              </li>
+              <li>
+                <span className={styles["content-number"]}>07</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -130,7 +141,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <span className={styles["content-number"]}>06</span>
+                <span className={styles["content-number"]}>08</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -141,7 +152,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <span className={styles["content-number"]}>07</span>
+                <span className={styles["content-number"]}>09</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -169,7 +180,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles["content-items"]}>
-            <span className={styles["content-number"]}>08</span>
+            <span className={styles["content-number"]}>10</span>
             <a className={styles["link-large"]} href="mailto:hi@clearas.vodka">
               hi@clearas.vodka
             </a>
