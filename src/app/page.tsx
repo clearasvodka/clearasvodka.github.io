@@ -34,16 +34,15 @@ export default function Home() {
                   Index
                 </a>
               </li>
-
               <li>
                 <span className={styles["content-number"]}>02</span>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles["link-large"]}
-                  href="https://sketch.clearasvodka.com/"
+                  className={styles["link-large-inactive"]}
+                  href="#"
                 >
-                  Sketchbook
+                  Lab
                 </a>
               </li>
             </ul>
@@ -75,15 +74,30 @@ export default function Home() {
                   Roopor
                 </a>
               </li>
-              <span className={styles["content-number"]}>04</span>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles["link-large-inactive"]}
-                href="#"
-              >
-                LND
-              </a>
+
+              <li>
+                <span className={styles["content-number"]}>04</span>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles["link-large-inactive"]}
+                  href="#"
+                >
+                  LND
+                </a>
+              </li>
+
+              <li>
+                <span className={styles["content-number"]}>05</span>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles["link-large"]}
+                  href="https://sketch.clearasvodka.com/"
+                >
+                  Sketchbook
+                </a>
+              </li>
             </ul>
           </div>
         </div>

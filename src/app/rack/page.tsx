@@ -13,6 +13,22 @@ export default function Page() {
           </p>
         </div>
         <div className={styles["book-item"]}>
+          <div className={styles["book-category"]}>🎙️</div>
+          <div className={styles["book-name"]}>
+            Elon Mask: Neuralink and the Future of Humanity
+          </div>
+          <div className={styles["book-authors"]}>Lex Fridman</div>
+        </div>
+
+        <div className={styles["book-item"]}>
+          <div className={styles["book-category"]}>📖</div>
+          <div className={styles["book-name"]}>
+            Course in General Linguistics
+          </div>
+          <div className={styles["book-authors"]}>Ferdinand de Saussure</div>
+        </div>
+
+        <div className={styles["book-item"]}>
           <div className={styles["book-category"]}>📖</div>
           <div className={styles["book-name"]}>
             Printing &#38; piety. An essay on life and works in the England of
