@@ -1,7 +1,9 @@
 ---
 import '../styles/global.css';
 
-const pageTitle = "Home"
+const pageTitle = "About";
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro"];
 ---
 
 <html lang="en">
@@ -12,11 +14,20 @@ const pageTitle = "Home"
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
+        <style>
+            h1 {
+                color: red;
+                font-size: 40px;
+            }
+        </style>
 	</head>
 	<body>
         <a href="/">Home</a>
         <a href="/about/">About</a>
         <a href="/blog/">Blog</a>
 		<h1>{pageTitle}</h1>
+        <ul>
+            {skills.map((skill) => <li>{skill}</li>)}
+        </ul>
 	</body>
 </html>
