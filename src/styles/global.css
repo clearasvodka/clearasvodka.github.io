@@ -10,6 +10,12 @@
   font-family: system-ui, sans-serif;
 }
 
+nav {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
 a {
   text-decoration: none;
 }
