@@ -1,0 +1,20 @@
+:root {
+  /* reference colors */
+  --cav-color-white: oklch(1 0 0);
+  --cav-color-neutral-5: oklch(98.5% 0 0);
+  --cav-color-neutral-10: oklch(97% 0 0);
+  --cav-color-neutral-20: oklch(92.2% 0 0);
+  --cav-color-neutral-30: oklch(87% 0 0);
+  --cav-color-neutral-40: oklch(70.8% 0 0);
+  --cav-color-neutral-50: oklch(55.6% 0 0);
+  --cav-color-neutral-60: oklch(43.9% 0 0);
+  --cav-color-neutral-70: oklch(37.1% 0 0);
+  --cav-color-neutral-80: oklch(26.9% 0 0);
+  --cav-color-neutral-90: oklch(20.5% 0 0);
+  --cav-color-neutral-100: oklch(14.5% 0 0);
+  --cav-color-black: oklch(0 0 0);
+  /* semantic colors */
+  --cav-color-background-base: var(--cav-color-white);
+  --cav-color-background-inverse: var(--cav-color-100);
+  --cav-color-surface-01: var(--cav-color-neutral-10);
+}
