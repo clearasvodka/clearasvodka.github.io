@@ -1,3 +1,5 @@
+@import "../styles/variables.css";
+
 *,
 *::before,
 *::after {
@@ -20,16 +22,26 @@ body {
   height: 100dvh;
   margin: auto;
   width: 100%;
+  color: var(--cav-color-content-primary);
+  background-color: var(--cav-color-background-base);
 }
 
 nav {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   padding: 12px;
   width: 100%;
   font-size: 16px;
   line-height: 24px;
+}
+
+main {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: auto repeat(12, 80px) auto;
+  gap: 24px;
+  grid-auto-rows: min-content;
 }
 
 h1 {
@@ -42,8 +54,25 @@ h1 {
   letter-spacing: 1px;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.64px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 a {
+  color: var(--cav-color-content-primary);
   text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 footer {

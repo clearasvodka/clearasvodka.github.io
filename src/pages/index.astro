@@ -1,8 +1,42 @@
 ---
-import PageLayout from "../layouts/PageLayout.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+import styles from "../styles/index.module.css";
 const pageTitle = "Home";
 ---
 
-<PageLayout pageTitle={pageTitle}>
-  <h2>This is subtitle</h2>
-</PageLayout>
+<MainLayout pageTitle={pageTitle}>
+  <div class={styles["main-container"]}>
+    <div class={styles["hero-section"]}>
+      <h1>{pageTitle}</h1>
+    </div>
+  </div>
+  <div class={styles.content}>
+    <div class={styles["content-title"]}>
+      <h2>Content</h2>
+    </div>
+    <div class={styles["content-items"]}>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+    </div>
+    <div class={styles["content-title"]}>
+      <h2>Content</h2>
+    </div>
+    <div class={styles["content-items"]}>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+    </div>
+    <div class={styles["content-title"]}>
+      <h2>Content</h2>
+    </div>
+    <div class={styles["content-items"]}>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+    </div>
+  </div>
+</MainLayout>
