@@ -1,41 +1,46 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import styles from "../styles/index.module.css";
+import HeroContainer from "../components/HeroContainer.astro";
 const pageTitle = "Home";
 ---
 
 <MainLayout pageTitle={pageTitle}>
   <div class={styles["main-container"]}>
     <div class={styles["hero-section"]}>
-      <h1>{pageTitle}</h1>
+      <HeroContainer />
     </div>
   </div>
   <div class={styles.content}>
     <div class={styles["content-title"]}>
-      <h2>Content</h2>
+      <h2>Projects</h2>
     </div>
     <div class={styles["content-items"]}>
       <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
+        <li><a href="https://www.roopor.com" target="_blank">Roopor</a></li>
+        <li>
+          <a href="https://sketch.clearasvodka.com" target="_blank"
+            >Sketchbook</a
+          >
+        </li>
       </ul>
     </div>
     <div class={styles["content-title"]}>
-      <h2>Content</h2>
+      <h2>Social</h2>
     </div>
     <div class={styles["content-items"]}>
       <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-      </ul>
-    </div>
-    <div class={styles["content-title"]}>
-      <h2>Content</h2>
-    </div>
-    <div class={styles["content-items"]}>
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
+        <li>
+          <a href="https://github.com/clearasvodka" target="_blank">Github</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/rost-oso" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://dribbble.com/emelman" target="_blank">Dribbble</a>
+        </li>
       </ul>
     </div>
   </div>

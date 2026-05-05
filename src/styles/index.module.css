@@ -16,14 +16,24 @@
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 2/14;
+  gap: 24px;
 }
 
 .content-title {
   grid-column: span 6;
-  background-color: blue;
 }
 
 .content-items {
   grid-column: span 6;
-  background-color: aqua;
+}
+
+.content-items ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.content-items li {
+  font-size: 24px;
+  line-height: 28px;
 }
