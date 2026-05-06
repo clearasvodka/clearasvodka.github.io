@@ -16,15 +16,21 @@
   /* semantic colors */
   --cav-color-background-base: var(--cav-color-white);
   --cav-color-background-inverse: var(--cav-color-neutral-100100);
-  --cav-color-surface-01: var(--cav-color-neutral-10);
+  --cav-color-surface: var(--cav-color-neutral-10);
   --cav-color-content-primary: var(--cav-color-neutral-100);
+  --cav-color-content-secondary: oklch(
+    from var(--cav-color-content-primary) l c h / 0.48
+  );
+  --cav-color-content-disabled: oklch(
+    from var(--cav-color-content-primary) l c h / 0.2
+  );
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --cav-color-background-base: var(--cav-color-neutral-100);
     --cav-color-background-inverse: var(--cav-color-white);
-    --cav-color-surface-01: var(--cav-color-neutral-5);
+    --cav-color-surface: var(--cav-color-neutral-90);
     --cav-color-content-primary: var(--cav-color-white);
   }
 }

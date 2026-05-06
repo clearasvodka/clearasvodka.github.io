@@ -18,7 +18,7 @@
 body {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-  gap: 32px;
+  gap: 16px;
   height: 100dvh;
   margin: auto;
   width: 100%;
@@ -71,11 +71,33 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 li {
   list-style-type: none;
 }
 
 footer {
   padding: 16px;
+  font-size: 12px;
+  line-height: 16px;
   text-align: center;
+  color: var(--cav-color-content-secondary);
+}
+
+.disabled {
+  color: var(--cav-color-content-disabled);
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1312px) {
+  main {
+    grid-template-columns: repeat(12, 1fr);
+  }
 }
