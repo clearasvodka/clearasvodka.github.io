@@ -41,7 +41,7 @@ main {
   display: grid;
   grid-template-columns: auto repeat(12, 80px) auto;
   gap: 24px;
-  grid-auto-rows: min-content;
+  height: 100%;
 }
 
 h1 {
