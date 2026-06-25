@@ -2,6 +2,7 @@
   height: 100%;
   display: grid;
   grid-template-columns: subgrid;
+  grid-column: 1 / -1;
   grid-template-rows: 1fr min-content;
   row-gap: 24px;
 }
@@ -36,7 +37,7 @@
 }
 
 .content-items li {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
 }
 
