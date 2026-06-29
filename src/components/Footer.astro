@@ -3,8 +3,8 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer>
-  <div>Clear as vodka <br />&copy; {currentYear}</div>
-  <ul>
+  &copy; {currentYear} Clear as vodka
+  <!-- <ul>
     <li>
       <a href="https://github.com/clearasvodka" target="_blank">Github</a>
     </li>
@@ -30,18 +30,11 @@ const currentYear = new Date().getFullYear();
     <li>
       <a href="mailto:greetings.vodka@gmail.com">greetings.vodka@gmail.com</a>
     </li>
-  </ul>
+  </ul> -->
 </footer>
 
 <style>
   footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  @media only screen and (max-width: 760px) {
-    footer {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    text-align: center;
   }
 </style>
