@@ -9,7 +9,7 @@
 }
 
 :root {
-  font-family: system-ui, sans-serif;
+  font-family: neue-haas-grotesk-text, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -18,40 +18,23 @@
 body {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-  gap: 16px;
+  gap: 20px;
+  padding: 20px;
   height: 100dvh;
-  margin: auto;
-  width: 100%;
   color: var(--cav-color-content-primary);
   background-color: var(--cav-color-background-base);
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  padding: 12px;
-  width: 100%;
   font-size: 16px;
   line-height: 24px;
 }
 
-main {
-  padding: 0 20px;
-  display: grid;
-  grid-template-columns: auto repeat(12, 80px) auto;
-  gap: 24px;
-  height: 100%;
-}
-
 h1 {
-  font-family: "optima-lt-pro", sans-serif;
-  font-weight: 400;
+  font-family: neue-haas-grotesk-display, system-ui, sans-serif;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 64px;
-  line-height: 64px;
-  letter-spacing: 1px;
+  font-size: 88px;
+  line-height: 72px;
+  letter-spacing: -6%;
 }
 
 h2 {
@@ -59,11 +42,6 @@ h2 {
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.64px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 a {
@@ -79,14 +57,6 @@ li {
   list-style-type: none;
 }
 
-footer {
-  padding: 16px;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-  color: var(--cav-color-content-secondary);
-}
-
 .disabled {
   color: var(--cav-color-content-disabled);
   cursor: not-allowed;
@@ -94,10 +64,4 @@ footer {
 
 .disabled:hover {
   text-decoration: none;
-}
-
-@media only screen and (max-width: 1312px) {
-  main {
-    grid-template-columns: repeat(12, 1fr);
-  }
 }

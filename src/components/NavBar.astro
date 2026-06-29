@@ -1,10 +1,19 @@
 ---
-
+import IconCav from "./icons/IconCav.astro";
 ---
 
 <nav>
-  <a class="disabled" href="/">Home</a>
-  <a class="disabled" href="#">Blog</a>
-  <a class="disabled" href="#">Rack</a>
-  <a class="disabled" href="#">About</a>
+  <ul>
+    <li><a href="/"><IconCav class="nav-logo" /></a></li>
+    <!-- <li><a class="disabled" href="#">Blog</a></li>
+    <li><a class="disabled" href="#">Rack</a></li>
+    <li><a class="disabled" href="#">About</a></li> -->
+  </ul>
 </nav>
+
+<style>
+  .nav-logo {
+    color: var(--cav-color-content-primary);
+    width: 40px;
+  }
+</style>

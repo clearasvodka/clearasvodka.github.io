@@ -2,4 +2,46 @@
 const currentYear = new Date().getFullYear();
 ---
 
-<footer>&copy; {currentYear} Clearasvodka. All rights reserved.</footer>
+<footer>
+  <div>Clear as vodka <br />&copy; {currentYear}</div>
+  <ul>
+    <li>
+      <a href="https://github.com/clearasvodka" target="_blank">Github</a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/rost-oso" target="_blank">LinkedIn</a
+      >
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://sketch.clearasvodka.com" target="_blank">Tumblr</a>
+    </li>
+    <li>
+      <a href="https://dribbble.com/emelman" target="_blank">Dribbble</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a href="https://www.instagram.com/clearasvodka" target="_blank"
+        >Instagram</a
+      >
+    </li>
+    <li>
+      <a href="mailto:greetings.vodka@gmail.com">greetings.vodka@gmail.com</a>
+    </li>
+  </ul>
+</footer>
+
+<style>
+  footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media only screen and (max-width: 760px) {
+    footer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
