@@ -4,37 +4,27 @@ const currentYear = new Date().getFullYear();
 
 <footer>
   &copy; {currentYear} Clear as vodka
-  <!-- <ul>
+  <ul>
+    <li><a href="https://github.com/clearasvodka" target="_blank">Gh</a></li>
     <li>
-      <a href="https://github.com/clearasvodka" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/rost-oso" target="_blank">Li</a>
     </li>
+    <li><a href="https://dribbble.com/emelman" target="_blank">Db</a></li>
     <li>
-      <a href="https://www.linkedin.com/in/rost-oso" target="_blank">LinkedIn</a
-      >
+      <a href="https://www.instagram.com/clearasvodka" target="_blank">Ig</a>
     </li>
   </ul>
-  <ul>
-    <li>
-      <a href="https://sketch.clearasvodka.com" target="_blank">Tumblr</a>
-    </li>
-    <li>
-      <a href="https://dribbble.com/emelman" target="_blank">Dribbble</a>
-    </li>
-  </ul>
-  <ul>
-    <li>
-      <a href="https://www.instagram.com/clearasvodka" target="_blank"
-        >Instagram</a
-      >
-    </li>
-    <li>
-      <a href="mailto:greetings.vodka@gmail.com">greetings.vodka@gmail.com</a>
-    </li>
-  </ul> -->
 </footer>
 
 <style>
   footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  footer ul {
+    display: flex;
+    gap: 20px;
   }
 </style>

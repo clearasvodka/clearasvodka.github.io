@@ -23,8 +23,8 @@ body {
   height: 100dvh;
   color: var(--cav-color-content-primary);
   background-color: var(--cav-color-background-base);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 h1 {
@@ -53,15 +53,15 @@ a:hover {
   text-decoration: underline;
 }
 
-li {
-  list-style-type: none;
+ul {
+  list-style: none;
 }
 
 .disabled {
-  color: var(--cav-color-content-disabled);
-  cursor: not-allowed;
+  text-decoration: line-through;
 }
 
 .disabled:hover {
-  text-decoration: none;
+  text-decoration: line-through;
+  cursor: not-allowed;
 }
