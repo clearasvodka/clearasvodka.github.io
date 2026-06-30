@@ -1,12 +1,22 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import styles from "../styles/index.module.css";
 import HeroContainer from "../components/HeroContainer.astro";
 const pageTitle = "Home";
 ---
 
 <MainLayout pageTitle={pageTitle}>
-  <div class={styles["hero-section"]}>
+  <div class="hero-section">
     <HeroContainer />
   </div>
 </MainLayout>
+
+<style>
+  .hero-section {
+    height: 100%;
+    border-radius: 16px;
+    background: var(--cav-color-surface);
+    background-image: radial-gradient(#ffffff20 1px, transparent 0);
+    background-size: 16px 16px;
+    background-position: -7px -7px;
+  }
+</style>
